@@ -3,30 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>project1-main | Content Creator</title>
+    
 </head>
 <body>
-    <nav>
-        <ul>
+    <a class="skip-link" href="#content" >Skip to Main Content</a>
+    <nav class="nav-container">
+        <ul class="nav-menu">
             <li><a class="currentNav" href="index.html">Home</a></li>
             <li><a href="projects.html">Experiences</a></li>
             <li><a href="samples.html">Samples Gallery</a></li>
         </ul>
     </nav>
+    
     <header>
         <h1>Content Creator & Entrepreneur</h1>
-        <img src="images/image1.PNG" alt="GenZMentality" id="headshot">
+        <img src="images/IMG_5249.jpg" alt="Jeannie Szomstein" id="profilePicture">
     </header>
-    <section class="intro">
+    <section class="intro" id="content">
         <h2>About Me</h2>
-        <p>I am a Content Creator, Entreprenuer, Researcher, and Gen Z Brand Consultant.</p>
-        <img src="images/profile.jpg" alt="Jeannie Szomstein" id="profilePicture">
+        <p> Hi, my name is Jeannie! I am a Content Creator, Entreprenuer, Researcher, and Gen Z Brand Consultant. 
+            I am a student at the University of Michigan studying Information and Entrepreneurship. </p>
+        <div class="dropdown">
+            <img src="images/image1.PNG" alt="GenZMentality" id="headshot">
+            <div class="dropdown-content" id="dropdownMenu">
+                <a href="#">Option 1</a>
+                <a href="#">Option 2</a>
+                <a href="#">Option 3</a>
+            </div>
+
+        </div>
+        
     </section>
     <section class="featured-projects">
         <h2>Featured Project</h2>
-        <p>I am currently working on a Media Brand called Gen Z Menality with the goal of Elevating Student Voices. 
-        Check it out my <a href=https://www.tiktok.com/@genzmentality target="_blank">TikTok</a>!</p>
+        <p> I am currently working on a Media Brand called Gen Z Menality with the goal of Elevating Student Voices. 
+        Check out my <a href=https://www.tiktok.com/@genzmentality target="_blank">TikTok</a>!</p>  
+
+    <section class="contact-me">
+        <h3>Contact Me</h3>
+        <p> Feel free to send me a message on Linkedin! 
+            Click to check out my <a href=https://www.linkedin.com/in/jeannie-s-420651188/ target="_blank">Linkedin</a>!</p>  
+
+
     </section>
+    <script src="index.js"> </script>
 </body>
 </html>
